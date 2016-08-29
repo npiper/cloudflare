@@ -1,0 +1,1 @@
+docker build -t cloudflare --build-arg http_proxy="http://$SUSER:$SPASS@proxy.auiag.corp:8080" --build-arg https_proxy="http://$SUSER:$SPASS@proxy.auiag.corp:8080" --build-arg no_proxy="chuck,*.auiag.corp" .

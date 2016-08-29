@@ -1,0 +1,17 @@
+{
+	"hosts": [
+		"iag.com.au"
+	],
+	"key": {
+		"algo": "rsa",
+		"size": 4096
+	},
+	"names": [
+		{
+			"C": "AU",
+			"O": "Insurance Australia Group",
+			"OU": "Digital Labs",
+                        "OU": "Cyber-Security Platform"
+		}
+	]
+}
